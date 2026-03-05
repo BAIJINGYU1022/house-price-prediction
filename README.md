@@ -19,9 +19,7 @@ The dataset contains information about residential properties, including:
 - Basement size
 - Year built
 
-The target variable is:
-
-SalePrice
+The target variable is:  SalePrice
 
 ---
 
@@ -31,7 +29,7 @@ SalePrice
 
 - Checked missing values
 - Categorized missing features by missing ratio
-- Removed high missing columns
+- Reviewed high-missing features but did not include them in the current model
 - Filled or kept moderate missing values depending on context
 
 ---
@@ -62,7 +60,7 @@ This transformation reduces skewness and improves model performance.
 
 ### 4 Exploratory Data Analysis
 
-Strong correlations were found between house price and several features:
+Strong correlations were found between house prices and several features:
 
 - OverallQual
 - GrLivArea
@@ -98,7 +96,7 @@ The predicted values align well with the actual prices.
 
 ## Key Findings
 
-The most important factors affecting house price include:
+The most important factors affecting house prices include:
 
 - Overall quality of the house
 - Living area
@@ -119,6 +117,3 @@ House quality shows the strongest impact on property value.
 
 ---
 
-## Author
-
-Amal
