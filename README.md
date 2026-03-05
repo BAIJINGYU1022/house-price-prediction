@@ -101,10 +101,10 @@ Train-test split:
 
 ### 6 Model Evaluation
 
-Model performance was evaluated using RMSE.
+Model performance was evaluated using R2 and RMSE.
 
 Result:
-
+R2 ≈ 0.839
 RMSE ≈ 0.173
 
 The predicted values align well with the actual prices.
@@ -128,16 +128,19 @@ House quality shows the strongest impact on property value.
 ![Price Distribution](outputs/figures/price_distribution.png)
 
 The target variable SalePrice exhibits a clear right-skewed distribution. 
+
 ---
 ### LogSalePrice Distribution 
 ![LogSalePrice Distribution](outputs/figures/original_log_saleprice.png)
 
 The original SalePrice distribution is highly right-skewed. After applying log transformation, the distribution becomes more symmetric. Therefore, LogSalePrice will be used for subsequent modeling.
+
 ---
 ### Actual vs Predicted
 ![Actual vs Predicted](outputs/figures/Actual_Predicted_saleprice.png)
 
 The scatter plot compares the actual house prices with the predicted values from the model. Most points lie close to the diagonal trend, indicating that the model predictions align reasonably well with the true values. Some larger deviations appear at higher price ranges, suggesting that the model may have more difficulty predicting very expensive houses.
+
 
 ## Tools Used
 
