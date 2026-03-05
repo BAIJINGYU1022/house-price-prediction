@@ -149,3 +149,24 @@ The scatter plot compares the actual house prices with the predicted values from
 
 ---
 
+## Data Source
+
+The dataset used in this project is from the Kaggle competition:
+House Prices – Advanced Regression Techniques.
+
+To reproduce the analysis:
+
+1. Download the dataset from:
+   [https://insideairbnb.com/get-the-data/](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+
+2. Place the file in the following directory:
+
+data/train.csv
+
+---
+## Future Work
+- Incorporate categorical features using one-hot encoding.
+- Apply regularized regression models such as Ridge and Lasso.
+- Explore more advanced models like Random Forest or XGBoost.
+- Use cross-validation to improve model evaluation and robustness.
+
