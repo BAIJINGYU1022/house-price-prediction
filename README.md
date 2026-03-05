@@ -21,7 +21,8 @@ The dataset contains information about residential properties, including:
 
 The target variable is:  SalePrice
 
----##  Repository Structure
+---
+##  Repository Structure
 
 ```text
 House-Price-Predictions/
