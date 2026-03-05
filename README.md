@@ -137,7 +137,7 @@ The original SalePrice distribution is highly right-skewed. After applying log t
 ### Actual vs Predicted
 ![Actual vs Predicted](outputs/figures/Actual_Predicted_saleprice.png)
 
-The scatter plot compare the actual house prices with the predicted values from the model. Most points lie close to the diagonal trend,indicating that the model preditions align resonable well with the true values. Some larger deviations appear at higher price ranges, suggesting that the model may have more difficulty predicting very expensive houses.
+The scatter plot compares the actual house prices with the predicted values from the model. Most points lie close to the diagonal trend, indicating that the model predictions align reasonably well with the true values. Some larger deviations appear at higher price ranges, suggesting that the model may have more difficulty predicting very expensive houses.
 
 ## Tools Used
 
