@@ -104,8 +104,8 @@ Train-test split:
 Model performance was evaluated using R2 and RMSE.
 
 Result:
-R2 ≈ 0.839
-RMSE ≈ 0.173
+- R2 ≈ 0.839
+- RMSE ≈ 0.173
 
 The predicted values align well with the actual prices.
 
