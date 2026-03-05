@@ -160,7 +160,7 @@ House Prices – Advanced Regression Techniques.
 To reproduce the analysis:
 
 1. Download the dataset from:
-   [https://insideairbnb.com/get-the-data/](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+   https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/
 
 2. Place the file in the following directory:
 
