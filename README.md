@@ -25,7 +25,7 @@ The target variable is:  SalePrice
 ##  Repository Structure
 
 ```text
-House-Price-Predictions/
+House-Price-Prediction/
 ├── README.md
 ├── requirements.txt
 ├── notebooks/
